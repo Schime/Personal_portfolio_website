@@ -1,0 +1,305 @@
+@media only screen and (max-width: 767px)
+{
+    /*
+    .container
+    {
+        flex-direction: column;
+    }
+    .item
+    {
+        width: 100%;
+    }
+    */
+
+    body
+    {
+        font-size: 0.8854vw;
+    }
+
+    nav
+    {
+        background-color: white;
+        height: 4.16667vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+    }
+    
+    .Navbar
+    {
+        margin: 0px;    /* Centriranje navigation bara */
+        height: 3.61094vw;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        display: flex;
+        left: 2.083333vw;
+        right: 2.083333vw;
+        top: 50%;
+        transform: translateY(-50%); 
+    }
+
+
+
+/* ----------My Expertise---------- */
+
+
+    .MyExpertise
+    {
+        padding: 5.208333vw 2.083333vw 5.208333vw 2.083333vw
+    }
+
+    .MyExpertise h3
+    {
+        font-size: 3.5vw;
+        color: black;
+        line-height: 10vw;
+    }
+
+    .MyExpertise h2
+    {
+        font-size: 5vw;
+    }
+
+    .MyExpertise li:hover
+    {
+        border-width: 1vw;
+    }
+
+    .Portfolio ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Portfolio ul li h3
+    {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .Portfolio ul li img
+    {
+        margin: 0.52083vw;
+        padding: 0.2604167vw;
+        background-color: #FFFFFF;
+        border-radius: 1.04167vw;
+        width: 10vw;
+        height: 10vw;
+        padding-left: 15vw;
+        padding-bottom: 3vw;
+    }
+
+
+
+    /* ----------About Me---------- */
+
+    .AboutMe
+    {
+        display: flex;
+    }
+    
+    .AboutImage
+    {
+        width: 100px;
+        height: 35vw;
+    }
+
+    .AboutText h3
+    {
+        flex-grow:1;
+        max-width: 55vw;
+        box-sizing: border-box;
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+
+    .AboutText h2
+    {
+        font-size: 3vw;
+    }
+
+
+    
+/* ----------My Portfolio---------- */
+
+    .MyPortfolio ul
+    {
+        margin: 0;
+    }
+    .Cards ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Cards li:nth-child(1)
+    {
+        width: 45vw;
+        height: 35vw;
+        margin-top: 7vw;
+    }
+
+    .Cards li:nth-child(2)
+    {
+        width: 45vw;
+        height: 35vw;
+        margin-right: 4vw;
+    }
+
+    .Cards li:nth-child(3)
+    {
+        width: 45vw;
+        height: 35vw;
+        margin-right: 4vw;
+    }
+
+    .Testimonial h3:nth-child(1)
+    {
+        font-size: 2vw;
+    }
+
+    .Testimonial h2
+    {
+        font-size: 4vw;
+        margin-top: 1vw;
+    }
+
+    .Testimonial ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Testimonial li:nth-child(1)
+    {
+        width: 50vw;
+    }
+
+    .Testimonial li:nth-child(1) h3
+    {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .Testimonial li:nth-child(1) h4
+    {
+        font-size: 1.7vw;
+        line-height: 2vw;
+    }
+
+    .Testimonial li:nth-child(2)
+    {
+        width: 50vw;
+        margin-right: 5vw;
+    }
+
+    .Testimonial li:nth-child(2) h3
+    {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .Testimonial li:nth-child(2) h4
+    {
+        font-size: 1.7vw;
+        line-height: 2vw;
+    }
+
+    .Testimonial li:nth-child(3)
+    {
+        width: 50vw;
+        margin-right: 5vw;
+    }
+
+    .Testimonial li:nth-child(3) h3
+    {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .Testimonial li:nth-child(3) h4
+    {
+        font-size: 1.7vw;
+        line-height: 2vw;
+    }
+
+
+
+/* ----------Contact me---------- */
+
+
+    .Contact-Me h3
+    {
+        font-size: 2.5vw;
+    }
+
+    .Section-Title h3
+    {
+        font-size: 2.6vw;
+    }
+    
+    .Contact-Me h2
+    {
+        font-size: 4vw;
+    }
+
+    .Form{}.form-group{}.name-group
+    {
+        font-size: 2vw;
+        font-family: 'Roboto';
+    }
+
+    .Form{}.contact-info-group{}.form-group
+    {
+        font-size: 2vw;
+        font-family: 'Roboto';
+    }
+
+    .Form{}.button-group{} button
+    {
+        width: 10vw;
+        height: 5vw;
+        font-size: 2vw;
+        font-family: 'Roboto';
+        margin-top: 3vw;
+    }
+
+
+
+    /* ----------Footer---------- */
+
+    footer
+    {  
+        margin: 0;
+    }
+
+    .footer-up
+    {
+        margin: 0;
+    }
+
+    .footer-up img
+    {
+        width: 15vw;
+        height: 4vw;
+    }
+    
+    .footer-up ul li
+    {
+        margin-top: 10vw;
+        margin-bottom: 7vw;
+    }
+
+    .footer-up ul li a
+    {
+        font-size: 1.7vw;
+    }
+
+    .footer-down
+    {
+        font-size: 1.5vw;
+    }
+
+}

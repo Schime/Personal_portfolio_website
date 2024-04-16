@@ -1,0 +1,743 @@
+/* ----------BODY---------- */
+
+body
+{
+    margin: 0;
+}
+
+nav
+{
+    background-color: white;
+    height: 4.166667vw;   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.Navbar
+{
+    margin: 0px;    /* Centriranje navigation bara */
+    height: 3.61094vw;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    left: 2.08333vw;
+    right: 2.08333vw;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.Navbar img
+{
+    height: 2.08333vw;
+    width:9.7222396vw;
+}
+
+.Navbar ul
+{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+
+.Navbar ul li
+{
+    margin: 0.78125vw;
+}
+
+.Navbar ul li a
+{
+    color: #1C1E53;
+    text-decoration: none;  /* Removes underlines which are there by default */
+    height: 2.0833vw;
+    line-height: 1.6667vw;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+button
+{
+    color: #5E3BEE;
+    background-color: #FFFFFF;
+    cursor: pointer;    /* Displays hand on hover, instead of arrow by default */
+    font-family: 'Roboto';
+    width: 8.889vw;
+    height: 3.611vw;
+    line-height: (5/3)vw;
+    font-weight: 400;
+    border-width: (5/96)vw;
+    border-color: #5E3BEE;
+    border-radius: 0.15625vw;
+    line-height: (5/3)vw;
+    font-weight: 400;
+    font-size: 1.111vw;
+}
+
+button:hover
+{
+    color: white;
+    background-color: #5E3BEE;
+}
+
+
+
+/* ----------HEADER---------- */
+
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5FCFF;
+}
+
+.home-text,.home-image
+{
+    flex-grow: 1;
+    max-width: 50%;
+    padding: 2.6041667vw;
+    box-sizing: border-box;
+}
+
+.home-image img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+h3
+{
+    font-family: "Roboto";
+    font-size: 1.1109375vw;
+    font-weight: 600;
+    line-height: 1.666667vw;
+    color:#1C1E53;
+    margin-top: 1.041667vw;
+    margin-bottom: 1.041667vw;
+}
+
+h1
+{
+    font-family: 'Roboto';
+    margin: 0;
+    font-size: 3.8890625vw;
+    font-weight: 700;
+    line-height: 4.666666666666667vw;
+    color:#1C1E53;
+}
+
+h3:nth-child(3)
+{
+    font-weight: 400;
+}
+
+.highlight
+{
+    color: #5E3BEE
+}
+
+.home-text button
+{
+    background-color: #5E3BEE;
+    color: white;
+}
+
+.home-text button:hover
+{
+    background-color: white;
+    color: #5E3BEE;
+}
+
+
+
+/* ----------My Expertise---------- */
+
+
+.MyExpertise
+{
+    padding: 5.208333vw 2.083333vw 5.208333vw 2.083333vw
+}
+
+.MyExpertise h3,
+.MyExpertise h2
+{
+    margin: 0;
+}
+
+.MyExpertise h3
+{
+    margin-bottom:1.04166667vw;
+}
+
+h2
+{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 3.3333vw;
+    line-height: 4vw;
+}
+
+.Portfolio
+{
+    margin-top: 5.208333vw;
+    margin-bottom: 2.08333vw;
+}
+
+.Portfolio ul
+{
+    padding: 0;
+    margin:0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Portfolio ul li
+{
+    flex-grow: 1;
+    max-width: 50%;
+    padding: 0.52083vw;
+    margin: 2.08333vw;
+    background-color: #F5FCFF;
+    border-radius: 0.52083vw;
+    padding-bottom: 1.041667vw; /* Adjust as needed */
+    border-bottom: 0.1041667vw solid transparent; 
+}
+
+.MyExpertise li:hover
+{
+    border-bottom-color:#5E3BEE;
+    border-width: 0.2604167vw;
+}
+
+.Portfolio ul li:first-child{
+    margin-left: 0px;
+}
+
+.Portfolio ul li:last-child{
+    margin-right: 0px;
+}
+
+.Portfolio ul li img{
+    margin: 0.52083vw;
+    padding: 0.2604167vw;
+    background-color: #FFFFFF;
+    border-radius: 1.04167vw;
+    width: 15%;
+    height: auto;
+}
+
+
+
+/* ----------About Me---------- */
+
+.AboutMe
+{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #FFFFFF;
+    height:41.667vw;
+    position: relative;
+    border-bottom: 0.141667vw solid #5E3BEE;
+}
+
+.AboutImage,
+.AboutText
+{
+    flex-grow:1;
+    max-width: 60%;
+    padding: 2.08333vw;
+    box-sizing: border-box;
+}
+
+.AboutImage
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.AboutImage img
+{
+    width: 32.361vw; 
+    height: 41.875vw;
+    object-fit: cover; 
+    object-position: center; 
+    padding-right: 2.604167vw;
+}
+
+.AboutText
+{
+    height:50%;
+    align-self: center;
+}
+
+.AboutText h3:nth-child(4)      /* Utjece na zadnji odjeljak (Sit turpis pretium eget maescenas) */
+{
+    font-weight: 400;
+}
+
+
+
+/* ----------My Portfolio---------- */
+
+
+.MyPortfolio
+{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7.8125vw;
+    margin-left: 2.0833vw;
+    margin-right: 2.0833vw;
+}
+
+.PortfolioHeader
+{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;      /* Odvoji button od teksta My Portfolio */
+    align-items: center;
+}
+
+.PortfolioHeader h2,
+.PortfolioHeader h3
+{
+    margin:0px;
+}
+
+.PortfolioHeader button
+{
+    color: #FFFFFF;
+    background-color: #E62872;
+    font-size: 1.11094vw;
+    line-height: 1.6vw;
+    display: flex;
+    justify-content: center; /* Centrira tekst horizontalno */
+    align-items: center; /* Centrira tekst vertikalno */
+    width: 10.41667vw;
+    height: 3.125vw;
+    border-radius: 0.52083vw;
+    border: none; /* Brise border koji po defaultu postoji */
+}
+
+.PortfolioHeader button img
+{
+    height:1.302083vw;
+    width:1.302083vw;
+    margin-right:1.041667vw;
+}
+
+.Cards ul
+{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin-top:5.20833vw;
+}
+
+.Cards li
+{
+    margin: 2.0833vw;       /* Razmak izmedu boxova (vrijedi za svaki box jer uzimamo sve <li> elemente)*/
+    box-shadow: 0 0 0.520833vw rgba(0, 0, 0, 0.3); /* Dodaje sjenu box-u */
+}
+
+.Cards li:first-child
+{
+    margin-left: 0px;
+}
+
+.Cards li:last-child
+{
+    margin-right: 0px;
+}
+
+.Cards li img   /* Vrijedi za sve slike (iz svakog box-a) */
+{
+    width: 100%; /* Set the width of the images to 100% of their container */
+    height: 20.833vw; /* Set the height of the images to 100% of their container */
+    object-fit: cover; 
+}
+
+.Cards li h3
+{
+    margin-left: (125/96)vw;
+    margin-right: (125/96)vw;
+}
+
+.Cards li button
+{
+    color: #1C1E53;
+    position:relative;      /* Relativno u odnosu na box, da je absolute View In Dribbble bi bio van boxa */
+    margin-left: (125/96)vw;
+    margin-bottom: 1.09375vw;
+    width: 7.8125vw;
+    font-size: 0.9724vw;
+    height: (25/12)vw;
+    text-align: left;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    border-radius: 0px;
+    border-color: #5E3BEE;
+}
+
+.Cards li button:hover
+{
+    background-color: #5E3BEE;
+    color:#FFFFFF;
+}
+
+
+
+/* ----------Customer testimonials---------- */
+
+.Testimonial
+{
+    background-color: #F5FCFF;
+    padding-left: 2.0883vw;
+    padding-right: 2.0883vw;
+    padding-top: 5.2083vw;
+}
+
+.Testimonial h3,
+.Testimonial h2
+{
+    margin: 0px;
+}
+
+.Testimonial ul
+{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px;
+    margin-top:5.2083vw;
+    list-style: none;
+}
+
+.Testimonial li
+{
+    margin: 2.6042vw;
+    padding: 1.5625vw;
+    border-radius: 5px;
+    border: 0.1042vw solid #006B6A;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:self-start;         /* Aligna person img i tekst od persona */
+}
+
+.Testimonial li:first-child
+{
+    margin-left: 0px;
+}
+
+.Testimonial li:last-child
+{
+    margin-right: 0px;
+}
+
+.Testimonial li img
+{
+    width: 30%;
+    height: auto;
+}
+
+.person
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.042vw;
+}
+
+.person img
+{
+    width:5.2083vw;
+    margin-right: 1.042vw;
+}
+
+.Testimonial li h3
+{
+    margin-top: 2.6042vw;
+    margin-bottom: 1.5625vw;
+}
+
+.person-info
+{
+    flex-grow: 1;
+    margin-left: 1.042vw;
+}
+
+.person-info h4
+{
+    margin:0px;
+    padding:0px;
+    margin-top:0.5201vw;
+    margin-bottom:0.5201vw;
+    font-family:"Roboto";
+    font-size:1.04167vw;
+}
+
+.person h3
+{
+    display:block
+}
+
+.person h2
+{
+    font-size: smaller;
+}
+
+.Testimonial h3,
+.Testimonial h4:nth-child(2)
+{
+    font-weight: 400;
+}
+
+
+
+/* ----------Contact me---------- */
+
+.Contact-Me
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.6042vw;
+    padding-top: 5.20833vw;
+}
+
+.Section-Title h3,
+.Section-Title h2
+{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 2.6042vw;   /* Razmak izmedu h3 i h2 20 px od dolje */
+}
+
+.Form
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 41.667vw; /* Adjust the max-width as needed */
+    width: 100%; /* Ensure the form takes up the available width */
+    margin: 0 auto; /* Center the form horizontally */
+    margin-top: 2.6042vw;
+}
+
+.form-group
+{
+    margin-bottom: 0.52083vw;
+    margin-right: 1.042vw;
+    margin-left: 1.042vw;  
+}
+
+.name-group
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-group .form-group
+{
+    width: calc(50% - 0.391vw);
+}
+
+
+.topic-group
+{
+    margin-left: 1.04167vw;
+    margin-right: 1.04167vw;
+}
+
+.topic-group .form-group
+{
+    width: calc(100% - 0.78125vw);
+}
+
+.message-group
+{
+    margin-left: 1.04167vw;
+    margin-right: 1.04167vw;
+}
+
+.message-group .form-group
+{
+    width: calc(100% - 1.9792vw);
+}
+
+.contact-info-group
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.042vw;
+    margin-left: 1.042vw;
+}
+
+.contact-info-group .form-group
+{
+    width: calc(50% - 0.391vw);
+    
+    /* Adjust the width as needed */
+}
+
+
+label
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select
+{
+    width: 100%;
+    padding: 0.6vw;
+    border-radius: 8px;
+    border: 2px solid #5E3BEE;
+    resize: none;
+}
+
+select
+{
+    background-color: #FFFFFF;
+}
+
+.checkbox-group
+{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1.04167vw;
+}
+
+.button-group .form-group
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* ----------Footer---------- */
+
+
+footer
+{
+    background-color: #F5FCFF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1vw;
+}
+
+.footer-up
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw 1vw 2vw 1vw;
+    background-color: #F5FCFF; 
+    width: calc(100% - 75px)
+}
+
+.footer-up img
+{
+    height: 2.08333vw;
+    width: 9.7222396vw;
+}
+
+.footer-up ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-up ul li
+{
+    margin: 0 10px;
+}
+
+.footer-up ul li a
+{
+    color: #1C1E53;
+    text-decoration: none;
+    height: 40px; 
+    line-height: 32px;
+    font-weight: 400;
+    font-family: "Roboto";
+    font-size: 1vw;
+}
+
+.footer-up .social-media img
+{
+    width:1.5vw;
+    height:1.5vw;
+    margin-left: 1vw;
+}
+
+
+.footer-down
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5FCFF; 
+    width: calc(100% - 75px);
+    border-top: 1px solid #1C1E53;
+    margin-bottom:50px;
+    padding-top:1vw;
+}
+
+.footer-down ul
+{
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:0px;
+    margin:0px;
+}
+
+.footer-down ul li
+{
+    margin: 0 0.7vw;
+}
+
+.footer-down ul li a
+{
+    color: #1C1E53;
+    text-decoration: none;
+    height: 40px; 
+    line-height: 32px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+a 
+{
+    text-decoration: none;
+}
