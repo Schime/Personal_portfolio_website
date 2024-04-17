@@ -1,444 +1,286 @@
-@media only screen and (max-width: 767px)
-{
-    /*
-    .container
-    {
-        flex-direction: column;
-    }
-    .item
-    {
-        width: 100%;
-    }
-    */
-
-    body
-    {
-        font-size: 0.8854vw;
-    }
-
-    nav
-    {
-        background-color: white;
-        height: 4.16667vw;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        position:relative;
-    }
-    
-    .Navbar
-    {
-        margin: 0px;    /* Centriranje navigation bara */
-        height: 3.61094vw;
-        justify-content: space-between;
-        align-items: center;
-        position: absolute;
-        display: flex;
-        left: 2.083333vw;
-        right: 2.083333vw;
-        top: 50%;
-        transform: translateY(-50%); 
-    }
-
-    .Navbar img
-    {
-        width: 15vw;
-        height: 4vw;
-    }
-
-    .Navbar li
-    {
-        font-size: 2vw;
-    }
-
-    .Navbar button
-    {
-        height: 6.5vw;
-        font-size: 12px;
-        line-height: 12px;
-        width: 70px;
-        height: 30px;
-        margin-top: 15px;
-    }
-
-
-    header .home-text h3:first-child
-    {
-        font-size: 12px;
-    }
-
-    header .home-text h1
-    {
-        font-size: 25px;
-        line-height: 25px;
-    }
-
-    header .home-text h3
-    {
-        margin-top: 4vw;
-        font-size: 12px;
-        line-height: 12px;
-        margin-bottom: 15px;
-    }
-
-    header .home-text button
-    {
-        font-size: 10px;
-        line-height: 2.5vw;
-        width: 50px;
-        height: 30px;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website (Community)</title>
+    <link rel = "stylesheet" href = "zadatak.css">
+    <link rel ="stylesheet" href = "style.css">
+</head>
+<body>
+    <nav>
+        <div class="Navbar">
+            <img src="Slike\Logo.png" alt="Logo" loading="lazy">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#About">About Me</a></li>
+                <li><a href="#Testimonial">Testimonials</a></li>
+            </ul>
+            <a href="#Contact">
+                <button>Contact Me</button>
+            </a>
+        </div>
+    </nav>
 
 
 
+    <header>
+        <div class = "home-text" id = "Home">
+            <h3>Hey, I am John</h3>
+            <h1>I create <span class = "highlight">product design</span> and brand experience</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h3>
+            <a href = "#Contact">
+                <button>Get In Touch</button>
+            </a>
+        </div>
+        <div class = "home-image">
+            <img src="Slike\Home.png" alt = "HomeImage">
+        </div>
+    </header>
 
 
 
-/* ----------My Expertise---------- */
+    <div class = "MyExpertise">
+        <h3>My Skills</h3>
+        <h2>My Expertise</h2>
+
+        <div class = "Portfolio">
+            <ul>
+                <li>
+                    <img src="Slike/product-chain 1.png" alt = "logo" loading="lazy">
+                    <h3>Strategy & Direction</h3>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h3>
+                </li>
+                <li>
+                    <img src="Slike/tag 1.png" alt="Logo" loading="lazy">
+                    <h3>Branding & Logo</h3>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h3>
+                </li>
+                <li>
+                    <img src="Slike/feather-pen 1.png" alt="Logo" loading="lazy">
+                    <h3>UI & UX Design</h3>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h3>
+                <li>
+                    <img src="Slike/feather-pen 1-1.png" alt="Logo" loading="lazy">
+                    <h3>Webflow Development</h3>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h3>
+            </ul>
+        </div>
+    </div>
+
+    <div class = "AboutMe" id = "About">    <!-- Utjece na responzivnost. Po id-u iz navigacijske trake dolazimo ovdje -->
+        <div class = "AboutImage">
+            <img src = "Slike/About Me-1.png" alt = "AboutMeImage" loading="lazy">
+        </div>
+
+        <div class = "AboutText">
+            <h3>About</h3>
+            <h2>About Me</h2>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</h3>
+            <h3>Sit turpis pretium eget maescenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</h3>
+        </div>
+    </div>
 
 
-    .MyExpertise
-    {
-        padding: 5.208333vw 2.083333vw 5.208333vw 2.083333vw
-    }
-
-    .MyExpertise h3
-    {
-        font-size: 3.5vw;
-        color: black;
-        line-height: 10vw;
-    }
-
-    .MyExpertise h2
-    {
-        font-size: 5vw;
-    }
-
-    .MyExpertise li:hover
-    {
-        border-width: 1vw;
-    }
-
-    .Portfolio ul
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Portfolio ul li h3
-    {
-        font-size: 12px;
-        line-height: 3vw;
-    }
-
-    .Portfolio ul li img
-    {
-        margin: 0.52083vw;
-        padding: 0.2604167vw;
-        background-color: #FFFFFF;
-        border-radius: 1.04167vw;
-        width: 10vw;
-        height: 10vw;
-        padding-left: 15vw;
-        padding-bottom: 3vw;
-    }
-
-
-
-
-    /* ----------About Me---------- */
-
-    .AboutMe
-    {
-        display: flex;
-    }
-    
-    .AboutImage
-    {
-        width: 100px;
-        height: 35vw;
-    }
-
-    .AboutText
-    {
-        margin-bottom: 130px;
-    }
-
-    .AboutText h3
-    {
-        flex-grow:1;
-        max-width: 55vw;
-        box-sizing: border-box;
-        font-size: 12px;
-        line-height: 11px;
-    }
-
-    .AboutText h2
-    {
-        font-size: 3vw;
-    }
-
-
-    
-/* ----------My Portfolio---------- */
-
-    .MyPortfolio ul
-    {
-        margin: 0;
-    }
-
-    .MyPortfolio h3:nth-child(1)
-    {
-        font-size: 2vw;
-    }
-
-    .MyPortfolio h2
-    {
-        margin-top: 10px;
-        font-size: 4vw;
-    }
-
-    .MyPortfolio .PortfolioHeader button
-    {
-        width: 13vw;
-        height: 6vw;
-        font-size: 10px;
-        line-height: 2.5vw;
-        background-color: #5E3BEE;
-
-        border-color: black;
-        border-radius: 0.15625vw;
+    <div class="MyPortfolio" id = "Portfolio">
+        <div class= "PortfolioHeader">
+            <div class="Text">
+                <h3>Recent Projects</h3>
+                <h2>My Portfolio</h2>
+            </div>
+            <a href="https://dribbble.com/">
+                <button>
+                    <img src="Slike/Social icon.png" alt="DribbbleImg" loading="lazy">
+                    Visit My Dribbble
+                </button>  
+            </a>
+        </div>
         
-        color: white;
-        border: black;
-        margin-right: 2vw;
-    }
+        <div class = "Cards">
+            <ul>
+                <li>
+                    <img src = "Slike/Placeholder/ Image.png" alt="Ahuse" loading="lazy">
+                    <h3>Ahuse</h3>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</h3>
+                    <a href="https://dribbble.com/">
+                        <button>View In Dribbble</button>
+                    </a>
+                </li>
 
-    .Cards ul
-    {
-        display: flex;
-        flex-direction: column;
-    }
+                <li>
+                    <img src = "Slike/Placeholder/ Image-1.png" alt = "AppDashboard" loading="lazy">
+                    <h3>App Dashboard</h3>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</h3>
+                    <a href="https://dribbble.com/">
+                        <button>View In Dribbble</button>
+                    </a>
+                </li>
 
-    .Cards li:nth-child(1)
-    {
-        width: 50vw;
-        height: 45vw;
-        margin-top: 7vw;
-    }
-
-    .Cards li:nth-child(2)
-    {
-        width: 50vw;
-        height: 45vw;
-        margin-right: 4vw;
-        margin-top: 3vw;
-    }
-
-    .Cards li:nth-child(3)
-    {
-        width: 50vw;
-        height: 45vw;
-        margin-right: 4vw;
-        margin-top: 3vw;
-    }
-
-    .Cards li h3
-    {
-        font-size: 10px;
-        line-height: 12px;
-    }
-
-    .Cards li button
-    {
-        font-size: 10px;
-        width: 70px;
-        height: 30px;
-        margin-top: 0px;
-        text-align: center;
-        border-left:none;
-        border-right:none;
-        border-top:none;
-    }
-
-    .Testimonial h3:nth-child(1)
-    {
-        font-size: 12px;
-    }
-
-    .Testimonial h2
-    {
-        font-size: 4vw;
-        margin-top: 1vw;
-    }
-
-    .Testimonial ul
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Testimonial li:nth-child(1)
-    {
-        width: 50vw;
-    }
-
-    .Testimonial li:nth-child(1) h3
-    {
-        font-size: 12px;
-        line-height: 3vw;
-    }
-
-    .Testimonial li:nth-child(1) h4
-    {
-        font-size: 12px;
-        line-height: 2vw;
-    }
-
-    .Testimonial li:nth-child(2)
-    {
-        width: 50vw;
-        margin-right: 5vw;
-    }
-
-    .Testimonial li:nth-child(2) h3
-    {
-        font-size: 12px;
-        line-height: 3vw;
-    }
-
-    .Testimonial li:nth-child(2) h4
-    {
-        font-size: 12px;
-        line-height: 2vw;
-    }
-
-    .Testimonial li:nth-child(3)
-    {
-        width: 50vw;
-        margin-right: 5vw;
-    }
-
-    .Testimonial li:nth-child(3) h3
-    {
-        font-size: 12px;
-        line-height: 3vw;
-    }
-
-    .Testimonial li:nth-child(3) h4
-    {
-        font-size: 12px;
-        line-height: 2vw;
-    }
+                <li>
+                    <img src = "Slike/Placeholder/ Image-2.png" alt = "Easy Rent" loading="lazy">
+                    <h3>Easy Rent</h3>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</h3>
+                    <a href="https://dribbble.com/">
+                        <button>View In Dribbble</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
 
 
-/* ----------Contact me---------- */
+    <div class = "Testimonial" id = "Testimonial">
+        <h3>Clients Feedback</h3>
+        <h2>Customer testimonials</h2>
 
+        <ul>
+            <li>
+                <img src="Slike/Stars.png" alt="Stars" loading="lazy">
+                <h3>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</h3>
+                <div class = "person">
+                    <img src="Slike/Avatar Image.png" alt="Person1" loading="lazy">
+                    <div class="person-info">
+                        <h4>Dianne Russell</h4>
+                        <h4>Starbucks</h4>
+                    </div>
+                </div>
+            </li>
 
-    .Contact-Me h3
-    {
-        font-size: 2.5vw;
-    }
+            <li>
+                <img src="Slike/Stars.png" alt="Stars" loading="lazy">
+                <h3>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</h3>
+                <div class = "person">
+                    <img src="Slike/Avatar Image-1.png" alt="Person2" loading="lazy">
+                    <div class="person-info">
+                        <h4>Kristin Watson</h4>
+                        <h4>Louis Vuitton</h4>
+                    </div>
+                </div>
+            </li>
 
-    .Section-Title h3
-    {
-        font-size: 15px;
-    }
-    
-    .Contact-Me h2
-    {
-        font-size: 4vw;
-    }
-
-    .Form
-    {
-        margin-right: 135px;
-    }
-
-    .Form .form-group .name-group
-    {
-        font-size: 12px;
-        align-items: center;
-        width: 200px;
-        font-family: 'Roboto';
-    }
-
-    .Form .contact-info-group
-    {
-        font-size: 12px;
-        width: 200px;
-        font-family: 'Roboto';
-    }
-
-    .Form .topic-group
-    {
-        font-size: 12px;
-        width: 200px;
-    }
-
-    .Form .message-group
-    {
-        font-size: 12px;
-        width: 200px;
-    }
-
-    .Form .checkbox-group
-    {
-        font-size: 12px;
-    }
-
-    .Form .button-group button
-    {
-        width: 13vw;
-        height: 4vw;
-        font-size: 12px;
-        font-family: 'Roboto';
-        margin-top: 3vw;
-        margin-left: 50px;
-    }
+            <li>
+                <img src="Slike/Stars.png" alt="Stars" loading="lazy">
+                <h3>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</h3>
+                <div class = "person">
+                    <img src="Slike/Avatar Image-2.png" alt="Person3" loading="lazy">
+                    <div class="person-info">
+                        <h4>Kathryn Murhpy</h4>
+                        <h4>McDonald's</h4>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
 
 
 
-    /* ----------Footer---------- */
+    <div class = "Contact-Me" id = "Contact">
+        <div class="Section-Title">
+            <h3>Get In Touch</h3>
+            <h2>Contact Me</h2>
+            <h3>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        </div>
 
-    footer
-    {  
-        margin: 0;
-    }
+        <div class = "Form">
+            <div class="form-group">
+                <div class="name-group">
+                    <div class="form-group">
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                </div>
+            </div>
 
-    .footer-up
-    {
-        margin: 0;
-    }
+            <div class="contact-info-group">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+            </div>
 
-    .footer-up img
-    {
-        width: 15vw;
-        height: 4vw;
-    }
-    
-    .footer-up ul li
-    {
-        margin-right: 20px;
-        margin-top: 10vw;
-        margin-bottom: 7vw;
-    }
+            <div class="topic-group">
+                <div class="form-group">
+                    <label for="topic">Choose a Topic</label>
+                    <select name="topic" id="topic">
+                        <option value="">Select one...</option>
+                        <option value="question">Question</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
 
-    .footer-up ul li:nth-child(3)
-    {
-        line-height: 0px;
-    }
+            <div class="message-group">
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Type your message..."></textarea>
+                </div>
+            </div>
+            <div class="checkbox-group">
+                <div class ="form-group">
+                    <input type="checkbox" label = "checkbox" id="terms" name="terms" required> I accept the terms
+                </div>
+            </div>
 
-    .footer-up ul li a
-    {
-        font-size: 1.7vw;
-    }
+            <div class="button-group">
+                <div class ="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    .footer-down
-    {
-        font-size: 10px;
-    }
+    <footer>
+        <div class="footer-up">
+            <img src="Slike/Logo.png" alt="Logo" loading="lazy">
+            
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#About">About Me</a></li>
+                <li><a href="#Contact">Contact me</a></li>
+                <li><a href="#Testimonial">Testimonials</a></li>
+            </ul>
 
-}
+            <div class="social-media">
+                <a href="https://www.facebook.com">
+                    <img href="www.facebook.com" src="Slike/Facebook.png" alt="facebook" loading="lazy">
+                </a>
+
+                <a href="https://www.instagram.com">
+                    <img src="Slike/Instagram.png" alt="instagram" loading="lazy">
+                </a>
+
+                <a href="https://www.twitter.com">
+                    <img src="Slike/Twitter.png" alt="twitter" loading="lazy">
+                </a>
+
+                <a href="https://www.linkedin.com">
+                    <img src="Slike/LinkedIn.png" alt="linkedin" loading="lazy">
+                </a>                                                                          
+            </div>
+        </div>
+
+        <div class="footer-down">
+            <p>Made with &#x2665; by <a href="https://github.com/Schime">Marin</a></p>
+            
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookies Settings</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
