@@ -252,9 +252,9 @@
     .Cards li button
     {
         font-size: 10px;
-        width: 13vw;
-        height: 7vw;
-        margin-top: 5px;
+        width: 70px;
+        height: 30px;
+        margin-top: 0px;
     }
 
     .Testimonial h3:nth-child(1)
