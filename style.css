@@ -53,8 +53,9 @@
 
     .Navbar button
     {
-        height: 5.5vw;
+        height: 6.5vw;
         font-size: 12px;
+        line-height: 12px;
         width: 70px;
         height: 30px;
         margin-top: 15px;
@@ -76,14 +77,16 @@
     {
         margin-top: 4vw;
         font-size: 12px;
-        line-height: 2.5vw;
+        line-height: 12px;
+        margin-bottom: 15px;
     }
 
     header .home-text button
     {
         font-size: 10px;
         line-height: 2.5vw;
-        height: 6vw;
+        width: 50px;
+        height: 30px;
     }
 
 
@@ -219,23 +222,23 @@
 
     .Cards li:nth-child(1)
     {
-        width: 45vw;
-        height: 40vw;
+        width: 50vw;
+        height: 45vw;
         margin-top: 7vw;
     }
 
     .Cards li:nth-child(2)
     {
-        width: 45vw;
-        height: 40vw;
+        width: 50vw;
+        height: 45vw;
         margin-right: 4vw;
         margin-top: 3vw;
     }
 
     .Cards li:nth-child(3)
     {
-        width: 45vw;
-        height: 41vw;
+        width: 50vw;
+        height: 45vw;
         margin-right: 4vw;
         margin-top: 3vw;
     }
@@ -344,27 +347,36 @@
         font-size: 4vw;
     }
 
+    .Form
+    {
+        margin-right: 135px;
+    }
+
     .Form .form-group .name-group
     {
-        font-size: 11px;
+        font-size: 12px;
+        align-items: center;
+        width: 200px;
         font-family: 'Roboto';
     }
 
     .Form .contact-info-group
     {
-        font-size: 11px;
-        width: 197px;
+        font-size: 12px;
+        width: 200px;
         font-family: 'Roboto';
     }
 
     .Form .topic-group
     {
         font-size: 12px;
+        width: 200px;
     }
 
     .Form .message-group
     {
         font-size: 12px;
+        width: 200px;
     }
 
     .Form .checkbox-group
@@ -374,11 +386,12 @@
 
     .Form .button-group button
     {
-        width: 10vw;
-        height: 5vw;
+        width: 13vw;
+        height: 4vw;
         font-size: 12px;
         font-family: 'Roboto';
         margin-top: 3vw;
+        margin-left: 50px;
     }
 
 
@@ -403,8 +416,14 @@
     
     .footer-up ul li
     {
+        margin-right: 20px;
         margin-top: 10vw;
         margin-bottom: 7vw;
+    }
+
+    .footer-up ul li:nth-child(3)
+    {
+        line-height: 0px;
     }
 
     .footer-up ul li a
@@ -412,9 +431,10 @@
         font-size: 1.7vw;
     }
 
+
     .footer-down
     {
-        font-size: 1.5vw;
+        font-size: 10px;
     }
 
 }
