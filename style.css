@@ -255,6 +255,10 @@
         width: 70px;
         height: 30px;
         margin-top: 0px;
+        text-align: center;
+        border-left:none;
+        border-right:none;
+        border-top:none;
     }
 
     .Testimonial h3:nth-child(1)
