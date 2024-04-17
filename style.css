@@ -54,23 +54,27 @@
     .Navbar button
     {
         height: 5.5vw;
+        font-size: 12px;
+        width: 70px;
+        height: 30px;
+        margin-top: 15px;
     }
 
 
     header .home-text h3:first-child
     {
-        font-size: 2vw;
+        font-size: 12px;
     }
 
     header .home-text h1
     {
-        font-size: 5vw;
+        font-size: 25px;
     }
 
     header .home-text h3
     {
         margin-top: 4vw;
-        font-size: 2vw;
+        font-size: 12px;
         line-height: 2.5vw;
     }
 
@@ -119,7 +123,7 @@
 
     .Portfolio ul li h3
     {
-        font-size: 2vw;
+        font-size: 12px;
         line-height: 3vw;
     }
 
@@ -151,13 +155,18 @@
         height: 35vw;
     }
 
+    .AboutText
+    {
+        margin-bottom: 70px;
+    }
+
     .AboutText h3
     {
         flex-grow:1;
         max-width: 55vw;
         box-sizing: border-box;
-        font-size: 2vw;
-        line-height: 2vw;
+        font-size: 12px;
+        line-height: 11px;
     }
 
     .AboutText h2
@@ -187,9 +196,9 @@
 
     .MyPortfolio .PortfolioHeader button
     {
-        width: 12vw;
+        width: 13vw;
         height: 6vw;
-        font-size: 1.7vw;
+        font-size: 12px;
         line-height: 2.5vw;
         background-color: #5E3BEE;
 
@@ -225,27 +234,27 @@
     .Cards li:nth-child(3)
     {
         width: 45vw;
-        height: 40vw;
+        height: 41vw;
         margin-right: 4vw;
         margin-top: 3vw;
     }
 
     .Cards li h3
     {
-        font-size: 2vw;
+        font-size: 12px;
         line-height: 2vw;
     }
 
     .Cards li button
     {
-        font-size: 1.5vw;
+        font-size: 12px;
         width: 10vw;
         height: 5vw;
     }
 
     .Testimonial h3:nth-child(1)
     {
-        font-size: 2vw;
+        font-size: 12px;
     }
 
     .Testimonial h2
@@ -267,13 +276,13 @@
 
     .Testimonial li:nth-child(1) h3
     {
-        font-size: 2vw;
+        font-size: 12px;
         line-height: 3vw;
     }
 
     .Testimonial li:nth-child(1) h4
     {
-        font-size: 1.7vw;
+        font-size: 12px;
         line-height: 2vw;
     }
 
@@ -285,13 +294,13 @@
 
     .Testimonial li:nth-child(2) h3
     {
-        font-size: 2vw;
+        font-size: 12px;
         line-height: 3vw;
     }
 
     .Testimonial li:nth-child(2) h4
     {
-        font-size: 1.7vw;
+        font-size: 12px;
         line-height: 2vw;
     }
 
@@ -303,13 +312,13 @@
 
     .Testimonial li:nth-child(3) h3
     {
-        font-size: 2vw;
+        font-size: 12px;
         line-height: 3vw;
     }
 
     .Testimonial li:nth-child(3) h4
     {
-        font-size: 1.7vw;
+        font-size: 12px;
         line-height: 2vw;
     }
 
@@ -325,7 +334,7 @@
 
     .Section-Title h3
     {
-        font-size: 2.6vw;
+        font-size: 15px;
     }
     
     .Contact-Me h2
@@ -333,23 +342,38 @@
         font-size: 4vw;
     }
 
-    .Form{}.form-group{}.name-group
+    .Form .form-group .name-group
     {
-        font-size: 2vw;
+        font-size: 12px;
         font-family: 'Roboto';
     }
 
-    .Form{}.contact-info-group{}.form-group
+    .Form .contact-info-group .form-group
     {
-        font-size: 2vw;
+        font-size: 12px;
         font-family: 'Roboto';
     }
 
-    .Form{}.button-group{} button
+    .Form .topic-group
+    {
+        font-size: 12px;
+    }
+
+    .Form .message-group
+    {
+        font-size: 12px;
+    }
+
+    .Form .checkbox-group
+    {
+        font-size: 12px;
+    }
+
+    .Form .button-group button
     {
         width: 10vw;
         height: 5vw;
-        font-size: 2vw;
+        font-size: 12px;
         font-family: 'Roboto';
         margin-top: 3vw;
     }
