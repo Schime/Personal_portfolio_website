@@ -243,7 +243,7 @@
     .Cards li h3
     {
         font-size: 10px;
-        line-height: 2vw;
+        line-height: 12px;
     }
 
     .Cards li button
@@ -251,6 +251,7 @@
         font-size: 10px;
         width: 13vw;
         height: 5vw;
+        margin-top: 5px;
     }
 
     .Testimonial h3:nth-child(1)
@@ -345,13 +346,14 @@
 
     .Form .form-group .name-group
     {
-        font-size: 12px;
+        font-size: 11px;
         font-family: 'Roboto';
     }
 
-    .Form .contact-info-group .form-group
+    .Form .contact-info-group
     {
-        font-size: 12px;
+        font-size: 11px;
+        width: 197px;
         font-family: 'Roboto';
     }
 
