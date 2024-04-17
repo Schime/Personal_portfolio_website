@@ -381,11 +381,11 @@ h2
 {
     color: #1C1E53;
     position:relative;      /* Relativno u odnosu na box, da je absolute View In Dribbble bi bio van boxa */
-    margin-left: (125/96)vw;
+    margin-left: 1vw;
     margin-bottom: 1.09375vw;
-    width: 7.8125vw;
-    font-size: 0.9724vw;
-    height: (25/12)vw;
+    width: 9vw;
+    font-size: 1vw;
+    height: 2vw;
     text-align: left;
     border-left:none;
     border-right:none;

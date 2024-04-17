@@ -40,6 +40,49 @@
         transform: translateY(-50%); 
     }
 
+    .Navbar img
+    {
+        width: 15vw;
+        height: 4vw;
+    }
+
+    .Navbar li
+    {
+        font-size: 2vw;
+    }
+
+    .Navbar button
+    {
+        height: 5.5vw;
+    }
+
+
+    header .home-text h3:first-child
+    {
+        font-size: 2vw;
+    }
+
+    header .home-text h1
+    {
+        font-size: 5vw;
+    }
+
+    header .home-text h3
+    {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    header .home-text button
+    {
+        font-size: 2vw;
+        line-height: 2.5vw;
+        height: 6vw;
+    }
+
+
+
+
 
 
 /* ----------My Expertise---------- */
@@ -93,6 +136,7 @@
 
 
 
+
     /* ----------About Me---------- */
 
     .AboutMe
@@ -111,7 +155,7 @@
         flex-grow:1;
         max-width: 55vw;
         box-sizing: border-box;
-        font-size: 1.5vw;
+        font-size: 2vw;
         line-height: 2vw;
     }
 
@@ -128,6 +172,34 @@
     {
         margin: 0;
     }
+
+    .MyPortfolio h3:nth-child(1)
+    {
+        font-size: 2vw;
+    }
+
+    .MyPortfolio h2
+    {
+        margin-top: 10px;
+        font-size: 4vw;
+    }
+
+    .MyPortfolio .PortfolioHeader button
+    {
+        width: 12vw;
+        height: 6vw;
+        font-size: 1.7vw;
+        line-height: 2.5vw;
+        background-color: cadetblue;
+        margin-right: 2vw;
+    }
+
+    .MyPortfolio .PortfolioHeader button:hover
+    {
+        background-color: pink;
+        color: black;
+    }
+
     .Cards ul
     {
         display: flex;
@@ -137,22 +209,37 @@
     .Cards li:nth-child(1)
     {
         width: 45vw;
-        height: 35vw;
+        height: 40vw;
         margin-top: 7vw;
     }
 
     .Cards li:nth-child(2)
     {
         width: 45vw;
-        height: 35vw;
+        height: 40vw;
         margin-right: 4vw;
+        margin-top: 3vw;
     }
 
     .Cards li:nth-child(3)
     {
         width: 45vw;
-        height: 35vw;
+        height: 40vw;
         margin-right: 4vw;
+        margin-top: 3vw;
+    }
+
+    .Cards li h3
+    {
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+
+    .Cards li button
+    {
+        font-size: 1.5vw;
+        width: 10vw;
+        height: 5vw;
     }
 
     .Testimonial h3:nth-child(1)
