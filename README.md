@@ -6,6 +6,7 @@ This is a personal portfolio website designed with a responsive layout, ensuring
   - Features
   - Technologies Used
   - Setup
+  - Usage
 
 ## Introduction
 This project highlights my work in product design, brand experience, and web development. The site includes sections such as Home, Portfolio, About Me, Testimonials, and Contact Me.
@@ -35,4 +36,6 @@ This project highlights my work in product design, brand experience, and web dev
      ```
 To just view a website click [here](https://schime.github.io/Portfolio_website/).
 
+## Usage
+This portfolio website can be used as a template for your own personal portfolio. Feel free to customize the content, images, and styles to match your personal branding.
 
